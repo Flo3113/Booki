@@ -804,6 +804,10 @@ footer h3 {
 		box-shadow: 0 5px 16px #0000002e;
 		
 	}
+	
+	.cards-activités img {
+		height: 115px;
+	}
 
 	/*Footer*/
 
@@ -817,9 +821,7 @@ footer h3 {
 		margin-left: 20px;
 		margin-bottom: 30px;
 	}
-	.cards-activités img {
-		height: 115px;
-	}
+	
 }
 
 /* RESPONSIVE POUR LES TABLETTE */
@@ -895,10 +897,14 @@ footer h3 {
 		padding: 2%;
 		align-items: center;
 	}
+	
+	.cards-activités img {
+		height: 385px;
+	}
 
 	footer {
 		margin-top: 30px;
-		flex-direction: column;
+		flex-direction: row;
 		padding-bottom: 0;
 	}
 	
@@ -909,12 +915,10 @@ footer h3 {
 	}
 
 	.colonne li{
-		padding: 8px 0 8px 250px;
+		padding: 8px 0 8px 0px;
 	}
 
-	.cards-activités img {
-		height: 385px;
-	}
+	
 }
 
 /*Smartphone*/
